@@ -239,7 +239,7 @@
                             </div>
                             <div class="confidence-bar"><div class="confidence-fill" data-width="92%"></div></div>
                             <div class="skill-usage text-muted">
-                                <strong>Integration:</strong> Enhanced <strong>YOLOv11</strong> for maritime search; added shallow detection heads & convolutional attention to improve recall by 12%.
+                                <strong>Integration:</strong> Enhanced <strong>YOLOv11</strong> for maritime search; added shallow detection heads & convolutional attention to improve recall by 12%. Implemented optimized <strong>NMS (Non-Maximum Suppression)</strong> with adaptive IoU thresholds for precise bounding box refinement.
                             </div>
                         </div>
                         <div>
@@ -274,6 +274,7 @@
                     </p>
                     <div class="flex flex-wrap gap-1">
                         <span class="mono text-[8px] px-2 py-0.5 bg-slate-500/10 rounded">YOLOv11</span>
+                        <span class="mono text-[8px] px-2 py-0.5 bg-slate-500/10 rounded">NMS</span>
                         <span class="mono text-[8px] px-2 py-0.5 bg-slate-500/10 rounded">Flask</span>
                     </div>
                 </div>
@@ -290,6 +291,7 @@
                         Full-stack detection system using YOLOv7. Curated drone datasets via manual LabelMe curation to ensure high MOTA performance.
                     </p>
                     <div class="flex flex-wrap gap-1">
+                        <span class="mono text-[8px] px-2 py-0.5 bg-slate-500/10 rounded">YOLOv7-NMS</span>
                         <span class="mono text-[8px] px-2 py-0.5 bg-slate-500/10 rounded">DeepSORT</span>
                         <span class="mono text-[8px] px-2 py-0.5 bg-slate-500/10 rounded">CV2</span>
                     </div>
